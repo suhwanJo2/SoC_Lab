@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SimLab01.srcs/sim_1/new/DigOutPort.v" \
+"../../../../SimLab01.srcs/sim_1/new/tb_WB.v" \
+"../../../../SimLab01.srcs/sim_1/new/AddrDec.v" \
+"../../../../SimLab01.srcs/sim_1/new/ConstReg.v" \
+"../../../../SimLab01.srcs/sim_1/new/AddrDec_DOT.v" \
+"../../../../SimLab01.srcs/sim_1/new/Timer.v" \
+"../../../../SimLab01.srcs/sim_1/new/AddrDec_Timer.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

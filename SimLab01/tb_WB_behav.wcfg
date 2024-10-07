@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_WB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_WB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="50500001fs"></ZoomEndTime>
+      <Cursor1Time time="124300000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="176"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_WB/rRST" type="logic">
+      <obj_property name="ElementShortName">rRST</obj_property>
+      <obj_property name="ObjectShortName">rRST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/rCLK" type="logic">
+      <obj_property name="ElementShortName">rCLK</obj_property>
+      <obj_property name="ObjectShortName">rCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/rADR" type="array">
+      <obj_property name="ElementShortName">rADR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rADR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/rDAT" type="array">
+      <obj_property name="ElementShortName">rDAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rDAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/wDAT" type="array">
+      <obj_property name="ElementShortName">wDAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wDAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/rWE" type="logic">
+      <obj_property name="ElementShortName">rWE</obj_property>
+      <obj_property name="ObjectShortName">rWE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/rSTB" type="logic">
+      <obj_property name="ElementShortName">rSTB</obj_property>
+      <obj_property name="ObjectShortName">rSTB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/wACK" type="logic">
+      <obj_property name="ElementShortName">wACK</obj_property>
+      <obj_property name="ObjectShortName">wACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/wTOUT" type="logic">
+      <obj_property name="ElementShortName">wTOUT</obj_property>
+      <obj_property name="ObjectShortName">wTOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/wTOUT" type="logic">
+      <obj_property name="ElementShortName">wTOUT</obj_property>
+      <obj_property name="ObjectShortName">wTOUT</obj_property>
+   </wvobject>
+</wave_config>

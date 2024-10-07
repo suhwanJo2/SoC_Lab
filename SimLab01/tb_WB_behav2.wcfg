@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_WB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_WB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="252479999fs"></ZoomStartTime>
+      <ZoomEndTime time="303280000fs"></ZoomEndTime>
+      <Cursor1Time time="317980000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tb_WB/rRST" type="logic">
+      <obj_property name="ElementShortName">rRST</obj_property>
+      <obj_property name="ObjectShortName">rRST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/rCLK" type="logic">
+      <obj_property name="ElementShortName">rCLK</obj_property>
+      <obj_property name="ObjectShortName">rCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/rADR" type="array">
+      <obj_property name="ElementShortName">rADR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rADR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/rDAT" type="array">
+      <obj_property name="ElementShortName">rDAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rDAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/wDAT" type="array">
+      <obj_property name="ElementShortName">wDAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wDAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/rWE" type="logic">
+      <obj_property name="ElementShortName">rWE</obj_property>
+      <obj_property name="ObjectShortName">rWE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/rSTB" type="logic">
+      <obj_property name="ElementShortName">rSTB</obj_property>
+      <obj_property name="ObjectShortName">rSTB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/wACK" type="logic">
+      <obj_property name="ElementShortName">wACK</obj_property>
+      <obj_property name="ObjectShortName">wACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/wTOUT" type="logic">
+      <obj_property name="ElementShortName">wTOUT</obj_property>
+      <obj_property name="ObjectShortName">wTOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_WB/wSTB_Timer" type="logic">
+      <obj_property name="ElementShortName">wSTB_Timer</obj_property>
+      <obj_property name="ObjectShortName">wSTB_Timer</obj_property>
+   </wvobject>
+   <wvobject fp_name="group47" type="group">
+      <obj_property name="label">New Group</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="divider" fp_name="divider35">
+         <obj_property name="label">Timer</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_WB/Timer0/iADR" type="array">
+         <obj_property name="ElementShortName">iADR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">iADR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_WB/Timer0/iDAT" type="array">
+         <obj_property name="ElementShortName">iDAT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">iDAT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_WB/Timer0/oDAT" type="array">
+         <obj_property name="ElementShortName">oDAT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">oDAT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_WB/Timer0/iWE" type="logic">
+         <obj_property name="ElementShortName">iWE</obj_property>
+         <obj_property name="ObjectShortName">iWE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_WB/Timer0/iSTB" type="logic">
+         <obj_property name="ElementShortName">iSTB</obj_property>
+         <obj_property name="ObjectShortName">iSTB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_WB/Timer0/oACK" type="logic">
+         <obj_property name="ElementShortName">oACK</obj_property>
+         <obj_property name="ObjectShortName">oACK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_WB/Timer0/oTOUT" type="logic">
+         <obj_property name="ElementShortName">oTOUT</obj_property>
+         <obj_property name="ObjectShortName">oTOUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_WB/Timer0/rReg" type="array">
+         <obj_property name="ElementShortName">rReg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rReg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_WB/Timer0/rRegCnt" type="array">
+         <obj_property name="ElementShortName">rRegCnt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rRegCnt[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_WB/Timer0/wSel" type="logic">
+         <obj_property name="ElementShortName">wSel</obj_property>
+         <obj_property name="ObjectShortName">wSel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_WB/Timer0/rTOUT" type="logic">
+         <obj_property name="ElementShortName">rTOUT</obj_property>
+         <obj_property name="ObjectShortName">rTOUT</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

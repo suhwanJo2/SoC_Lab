@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct  7 13:24:50 2024
+# Process ID: 31112
+# Current directory: C:/SoC_Lab/SimLab01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29496 C:\SoC_Lab\SimLab01\SimLab01.xpr
+# Log file: C:/SoC_Lab/SimLab01/vivado.log
+# Journal file: C:/SoC_Lab/SimLab01\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/SoC_Lab/SimLab01/SimLab01.xpr
+launch_simulation
+open_wave_config C:/SoC_Lab/SimLab01/tb_WB_behav2.wcfg
+source tb_WB.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/SoC_Lab/SimLab01/tb_WB_behav2.wcfg
+source tb_WB.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/SoC_Lab/SimLab01/tb_WB_behav3.wcfg}
+add_files -fileset sim_1 -norecurse C:/SoC_Lab/SimLab01/tb_WB_behav3.wcfg
+set_property xsim.view {C:/SoC_Lab/SimLab01/tb_WB_behav.wcfg C:/SoC_Lab/SimLab01/tb_WB_behav2.wcfg C:/SoC_Lab/SimLab01/tb_WB_behav3.wcfg} [get_filesets sim_1]
+close_sim

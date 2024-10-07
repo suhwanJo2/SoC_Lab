@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Oct  1 19:11:32 2024
+# Process ID: 20420
+# Current directory: C:/SoC_Lab/SimLab01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16868 C:\SoC_Lab\SimLab01\SimLab01.xpr
+# Log file: C:/SoC_Lab/SimLab01/vivado.log
+# Journal file: C:/SoC_Lab/SimLab01\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/SoC_Lab/SimLab01/SimLab01.xpr
+launch_simulation
+open_wave_config C:/SoC_Lab/SimLab01/tb_WB_behav.wcfg
+source tb_WB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/SoC_Lab/SimLab01/tb_WB_behav.wcfg
+source tb_WB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/SoC_Lab/SimLab01/tb_WB_behav.wcfg
+source tb_WB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/SoC_Lab/SimLab01/tb_WB_behav.wcfg
+source tb_WB.tcl
+close_sim

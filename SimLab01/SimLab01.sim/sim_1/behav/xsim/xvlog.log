@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/DigOutPort.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DigOutPort
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/tb_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/AddrDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddrDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/ConstReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ConstReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/AddrDec_DOT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddrDec_DOT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/Timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/AddrDec_Timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddrDec_Timer

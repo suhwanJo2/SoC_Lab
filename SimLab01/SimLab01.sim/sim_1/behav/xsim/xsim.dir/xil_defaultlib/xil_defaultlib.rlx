@@ -1,0 +1,12 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/SoC_Lab/SimLab01/SimLab01.sim/sim_1/behav/xsim/glbl.v,1727151819,verilog,,,,glbl,,,,,,,,
+C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/AddrDec.v,1727661745,verilog,,C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/ConstReg.v,,AddrDec,,,,,,,,
+C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/AddrDec_DOT.v,1728266822,verilog,,C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/Timer.v,,AddrDec_DOT,,,,,,,,
+C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/AddrDec_Timer.v,1728267110,verilog,,,,AddrDec_Timer,,,,,,,,
+C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/ConstReg.v,1727665461,verilog,,C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/AddrDec_DOT.v,,ConstReg,,,,,,,,
+C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/DigOutPort.v,1727779709,verilog,,C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/tb_WB.v,,DigOutPort,,,,,,,,
+C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/Timer.v,1728280825,verilog,,C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/AddrDec_Timer.v,,Timer,,,,,,,,
+C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/tb_WB.v,1728281364,verilog,,C:/SoC_Lab/SimLab01/SimLab01.srcs/sim_1/new/AddrDec.v,,tb_WB,,,,,,,,
