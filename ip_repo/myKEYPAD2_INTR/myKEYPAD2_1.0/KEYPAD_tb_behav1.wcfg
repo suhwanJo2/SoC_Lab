@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="KEYPAD_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="KEYPAD_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="975050000000fs"></ZoomStartTime>
+      <ZoomEndTime time="1033350000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000050000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/KEYPAD_tb/iclk" type="logic">
+      <obj_property name="ElementShortName">iclk</obj_property>
+      <obj_property name="ObjectShortName">iclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KEYPAD_tb/inrest" type="logic">
+      <obj_property name="ElementShortName">inrest</obj_property>
+      <obj_property name="ObjectShortName">inrest</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KEYPAD_tb/iROW" type="array">
+      <obj_property name="ElementShortName">iROW[3:0]</obj_property>
+      <obj_property name="ObjectShortName">iROW[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KEYPAD_tb/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KEYPAD_tb/oCOL" type="array">
+      <obj_property name="ElementShortName">oCOL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">oCOL[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KEYPAD_tb/oKEYST" type="array">
+      <obj_property name="ElementShortName">oKEYST[15:0]</obj_property>
+      <obj_property name="ObjectShortName">oKEYST[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KEYPAD_tb/oKEYNUM" type="array">
+      <obj_property name="ElementShortName">oKEYNUM[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oKEYNUM[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KEYPAD_tb/uut/intr" type="logic">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+</wave_config>

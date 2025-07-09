@@ -1,0 +1,127 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Dec 14 11:36:52 2024
+# Process ID: 11672
+# Current directory: D:/backup/ReactionSpeedTester_12_9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11488 D:\backup\ReactionSpeedTester_12_9\ReactionSpeedTester.xpr
+# Log file: D:/backup/ReactionSpeedTester_12_9/vivado.log
+# Journal file: D:/backup/ReactionSpeedTester_12_9\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk -hwspec D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+open_bd_design {D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.srcs/sources_1/bd/ReactionSpeedTester/ReactionSpeedTester.bd}
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:Timer:1.0 [get_ips  ReactionSpeedTester_Timer_0_6] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips ReactionSpeedTester_Timer_0_6] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+make_wrapper -files [get_files D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.srcs/sources_1/bd/ReactionSpeedTester/ReactionSpeedTester.bd] -top
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+file mkdir D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk
+file copy -force D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.runs/impl_1/ReactionSpeedTester_wrapper.sysdef D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+
+launch_sdk -workspace D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk -hwspec D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:Timer:1.0 [get_ips  ReactionSpeedTester_Timer_0_6] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips ReactionSpeedTester_Timer_0_6] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+make_wrapper -files [get_files D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.srcs/sources_1/bd/ReactionSpeedTester/ReactionSpeedTester.bd] -top
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+file mkdir D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk
+file copy -force D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.runs/impl_1/ReactionSpeedTester_wrapper.sysdef D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+
+launch_sdk -workspace D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk -hwspec D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+open_bd_design {D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.srcs/sources_1/bd/ReactionSpeedTester/ReactionSpeedTester.bd}
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:Timer:1.0 [get_ips  ReactionSpeedTester_Timer_0_6] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips ReactionSpeedTester_Timer_0_6] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+report_ip_status -name ip_status 
+file mkdir D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk
+file copy -force D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.runs/impl_1/ReactionSpeedTester_wrapper.sysdef D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+
+launch_sdk -workspace D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk -hwspec D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:Timer:1.0 [get_ips  ReactionSpeedTester_Timer_0_6] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips ReactionSpeedTester_Timer_0_6] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+make_wrapper -files [get_files D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.srcs/sources_1/bd/ReactionSpeedTester/ReactionSpeedTester.bd] -top
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+file mkdir D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk
+file copy -force D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.runs/impl_1/ReactionSpeedTester_wrapper.sysdef D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+
+launch_sdk -workspace D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk -hwspec D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:Timer:1.0 [get_ips  ReactionSpeedTester_Timer_0_6] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips ReactionSpeedTester_Timer_0_6] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+make_wrapper -files [get_files D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.srcs/sources_1/bd/ReactionSpeedTester/ReactionSpeedTester.bd] -top
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+file mkdir D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk
+file copy -force D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.runs/impl_1/ReactionSpeedTester_wrapper.sysdef D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+
+launch_sdk -workspace D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk -hwspec D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:Timer:1.0 [get_ips  ReactionSpeedTester_Timer_0_6] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips ReactionSpeedTester_Timer_0_6] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+make_wrapper -files [get_files D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.srcs/sources_1/bd/ReactionSpeedTester/ReactionSpeedTester.bd] -top
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+file copy -force D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.runs/impl_1/ReactionSpeedTester_wrapper.sysdef D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+
+file mkdir D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk
+file copy -force D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.runs/impl_1/ReactionSpeedTester_wrapper.sysdef D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+
+launch_sdk -workspace D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk -hwspec D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+open_bd_design {D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.srcs/sources_1/bd/ReactionSpeedTester/ReactionSpeedTester.bd}
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:Timer:1.0 [get_ips  ReactionSpeedTester_Timer_0_6] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips ReactionSpeedTester_Timer_0_6] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+make_wrapper -files [get_files D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.srcs/sources_1/bd/ReactionSpeedTester/ReactionSpeedTester.bd] -top
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+file mkdir D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk
+file copy -force D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.runs/impl_1/ReactionSpeedTester_wrapper.sysdef D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+
+file copy -force D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.runs/impl_1/ReactionSpeedTester_wrapper.sysdef D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+
+launch_sdk -workspace D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk -hwspec D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:Timer:1.0 [get_ips  ReactionSpeedTester_Timer_0_6] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips ReactionSpeedTester_Timer_0_6] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+make_wrapper -files [get_files D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.srcs/sources_1/bd/ReactionSpeedTester/ReactionSpeedTester.bd] -top
+launch_sdk -workspace D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk -hwspec D:/backup/ReactionSpeedTester_12_9/ReactionSpeedTester.sdk/ReactionSpeedTester_wrapper.hdf

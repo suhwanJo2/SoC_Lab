@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SoC/ip_repo/myKEYPAD2_INTR/myKEYPAD2_1.0/hdl/KEYPAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KEYPAD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SoC/ip_repo/myKEYPAD2_INTR/myKEYPAD2_1.0/hdl/tb_KEYPAD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KEYPAD_tb

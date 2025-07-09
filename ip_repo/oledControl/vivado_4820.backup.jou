@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Dec  2 21:27:51 2024
+# Process ID: 4820
+# Current directory: D:/SoC/oledTest_12_02/ip_repo/oledControl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16620 D:\SoC\oledTest_12_02\ip_repo\oledControl\edit_oledControl_v1_0.xpr
+# Log file: D:/SoC/oledTest_12_02/ip_repo/oledControl/vivado.log
+# Journal file: D:/SoC/oledTest_12_02/ip_repo/oledControl\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/SoC/oledTest_12_02/ip_repo/oledControl/edit_oledControl_v1_0.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {D:\SoC\oledTest_12_02\ip_repo\oledControl\oledControl_1.0\component.xml}
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/SoC/oledTest_12_02/ip_repo/oledControl/oledControl_1.0
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/SoC/oledTest_12_02/ip_repo/oledControl/oledControl_1.0
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/SoC/oledTest_12_02/ip_repo/oledControl/oledControl_1.0
+set_property core_revision 8 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/SoC/oledTest_12_02/ip_repo/oledControl/oledControl_1.0

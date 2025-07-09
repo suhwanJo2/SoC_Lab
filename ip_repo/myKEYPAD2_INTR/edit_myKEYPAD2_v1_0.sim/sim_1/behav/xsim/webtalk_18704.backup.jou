@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 14 11:11:50 2024
+# Process ID: 18704
+# Current directory: D:/SoC/ip_repo/myKEYPAD2_INTR/edit_myKEYPAD2_v1_0.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/SoC/ip_repo/myKEYPAD2_INTR/edit_myKEYPAD2_v1_0.sim/sim_1/behav/xsim/xsim.dir/KEYPAD_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/SoC/ip_repo/myKEYPAD2_INTR/edit_myKEYPAD2_v1_0.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/SoC/ip_repo/myKEYPAD2_INTR/edit_myKEYPAD2_v1_0.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/SoC/ip_repo/myKEYPAD2_INTR/edit_myKEYPAD2_v1_0.sim/sim_1/behav/xsim/xsim.dir/KEYPAD_tb_behav/webtalk/xsim_webtalk.tcl -notrace
